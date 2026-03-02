@@ -1,0 +1,80 @@
+[
+    {
+        "idEtudiant": 6,
+        "numCarte": "ETUD006",
+        "nom": "Nina",
+        "prenom": "Julie",
+        "email": "nina.julie@univ.edu",
+        "tel": "06 44 33 22 11",
+        "filiere": "BDGL",
+        "annee_entree": 2024,
+        "date_naissance": "2005-07-22",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    },
+    {
+        "idEtudiant": 5,
+        "numCarte": "ETUD005",
+        "nom": "Karim",
+        "prenom": "Hassan",
+        "email": "karim.hassan@univ.edu",
+        "tel": "06 99 88 77 66",
+        "filiere": "SI",
+        "annee_entree": 2024,
+        "date_naissance": "2005-02-14",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    },
+    {
+        "idEtudiant": 4,
+        "numCarte": "ETUD004",
+        "nom": "Emma",
+        "prenom": "Charlotte",
+        "email": "emma.charlotte@univ.edu",
+        "tel": "06 55 66 77 88",
+        "filiere": "RSI",
+        "annee_entree": 2023,
+        "date_naissance": "2004-11-05",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    },
+    {
+        "idEtudiant": 3,
+        "numCarte": "ETUD003",
+        "nom": "Lucas",
+        "prenom": "Thomas",
+        "email": "lucas.thomas@univ.edu",
+        "tel": "06 11 22 33 44",
+        "filiere": "BDGL",
+        "annee_entree": 2023,
+        "date_naissance": "2004-03-10",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    },
+    {
+        "idEtudiant": 2,
+        "numCarte": "ETUD002",
+        "nom": "Sophia",
+        "prenom": "L??a",
+        "email": "etudiant.sophia@univ.edu",
+        "tel": "06 87 65 43 21",
+        "filiere": "SI",
+        "annee_entree": 2023,
+        "date_naissance": "2004-08-20",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    },
+    {
+        "idEtudiant": 1,
+        "numCarte": "ETUD001",
+        "nom": "Ali",
+        "prenom": "Ahmed",
+        "email": "etudiant.ali@univ.edu",
+        "tel": "06 12 34 56 78",
+        "filiere": "SI",
+        "annee_entree": 2023,
+        "date_naissance": "2004-05-15",
+        "created_at": "2026-03-01 20:08:28",
+        "updated_at": "2026-03-01 20:08:28"
+    }
+]
