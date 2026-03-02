@@ -1,0 +1,33 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: myunivmanager-mysql-1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: myunivmanager
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - myunivmanager-network
+
+  mongodb:
+    image: mongo:7.0
+    container_name: myunivmanager-mongodb-1
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - myunivmanager-network
+
+volumes:
+  mysql_data:
+  mongodb_data:
+
+networks:
+  myunivmanager-network:
+    driver: bridge
